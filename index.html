@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steve's Guide to Minecraft — Beginner Tutorials</title>
+  <meta name="description" content="A friendly, screenshot-by-screenshot guide to surviving your first nights in Minecraft.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <audio id="background-audio" loop preload="auto">
+    <source src="audio/Far - Minecraft Music Disc - C418.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">
+        <span class="logo-block" aria-hidden="true"></span>
+        Steve's Guide
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="primaryNav" class="primary-nav">
+        <ul>
+          <li><a href="#basics">Basics</a></li>
+          <li><a href="#guides">Guides</a></li>
+          <li><a href="#contact">Ask Steve</a></li>
+        </ul>
+      </nav>
+
+      <button id="audioToggle" class="audio-toggle" type="button" aria-pressed="false">
+        <span class="audio-icon" aria-hidden="true">♪</span>
+        <span class="audio-label">Music: Off</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="hero-kicker">Day 1, 6:00 AM (In Game Time) — the world just generated</p>
+        <h1>Craft your first night.</h1>
+        <p class="hero-sub">
+          Steve's been through this a hundred times. Follow along with real
+          in-game screenshots and you'll have a roof over your head, a
+          crafting table, and a torch lit before the sun goes down.
+        </p>
+        <a class="cta-button" href="#guides">Start with Guide 1</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="voxel voxel-grass"></div>
+        <div class="voxel voxel-dirt"></div>
+        <div class="voxel voxel-stone"></div>
+      </div>
+    </section>
+
+    <section id="basics" class="basics">
+      <h2>Three things every new player needs to know</h2>
+      <div class="basics-grid">
+        <div class="basic-item">
+          <h3>Punch, don't panic</h3>
+          <p>Trees, dirt, and stone all break by holding left-click. There's no wrong way to start, just start.</p>
+        </div>
+        <div class="basic-item">
+          <h3>Night means danger</h3>
+          <p>Zombies and skeletons spawn in the dark. Any shelter, even a hole in a wall, keeps you alive until morning.</p>
+        </div>
+        <div class="basic-item">
+          <h3>Everything is a recipe</h3>
+          <p>Wood becomes planks, planks become tools. The crafting table is the first thing worth building.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="guides" class="guides">
+      <h2>Featured guides</h2>
+      <p class="section-sub">Work through these in order if you're brand new, each one builds on the last.</p>
+        <p class="section-sub">Click the screenshots to watch the video guides, or read the text guides below.</p>
+      <div class="card-grid">
+
+        <article class="guide-card">
+          <span class="step-number" aria-hidden="true">1</span>
+          <div class="screenshot-frame">
+            <a class="video-link" href="#videos" data-video-index="0" aria-label="Watch the Punching Trees 101 video">
+              <img src="images/Punching Trees 101.png" alt="First thing to do to get started">
+            </a>
+          </div>
+          <h3>Punching Trees 101</h3>
+          <p>Gather your first wood, turn it into planks, and place your very own crafting table.</p>
+          <a class="card-link" href="#">Read the guide</a>
+        </article>
+
+        <article class="guide-card">
+          <span class="step-number" aria-hidden="true">2</span>
+          <div class="screenshot-frame">
+            <a class="video-link" href="#videos" data-video-index="1" aria-label="Watch the Surviving the Night video">
+              <img src="images/Surviving The Night.png" alt="Dirt house">
+            </a>
+          </div>
+          <h3>Surviving the Night</h3>
+          <p>Dig a quick dirt shelter, craft a torch, and hold the line until the sun comes up.</p>
+          <a class="card-link" href="#">Read the guide</a>
+        </article>
+
+        <article class="guide-card">
+          <span class="step-number" aria-hidden="true">3</span>
+          <div class="screenshot-frame">
+            <a class="video-link" href="#videos" data-video-index="2" aria-label="Watch the Redstone Basics video">
+              <img src="images/Redstone Basics.png" alt="Redstone Mechanics">
+            </a>
+          </div>
+          <h3>Redstone Basics</h3>
+          <p>Levers, buttons, and your first automatic door, the start of a properly modern base.</p>
+          <a class="card-link" href="#">Read the guide</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="videos" class="video-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Watch and learn</p>
+          <h2>Steve's video guides</h2>
+        </div>
+        <div class="carousel-controls" aria-label="Video carousel controls">
+          <button class="carousel-button" type="button" data-carousel="previous" aria-label="Previous video">&#8592;</button>
+          <button class="carousel-button" type="button" data-carousel="next" aria-label="Next video">&#8594;</button>
+        </div>
+      </div>
+      <div class="video-carousel" aria-live="polite">
+        <article class="video-slide is-active">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/5BI86AIY3cc" title="How to punch a tree" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-caption">
+            <span class="video-number">01</span>
+            <div><h3>How to punch a tree</h3><p>Get your first logs and craft the tools that start every adventure.</p></div>
+          </div>
+        </article>
+        <article class="video-slide">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/Rtyi595NEN4" title="How to survive the first night" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <a class="video-fallback-link" href="https://youtu.be/Rtyi595NEN4" target="_blank" rel="noopener">▶ Watch "Survive Your First Night" on YouTube</a>
+          <div class="video-caption">
+            <span class="video-number">02</span>
+            <div><h3>Survive your first night</h3><p>Build a shelter, make torches, and keep the monsters outside.</p></div>
+          </div>
+        </article>
+        <article class="video-slide">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/SZ0ox0ccu_o" title="Redstone basics tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <a class="video-fallback-link" href="https://youtu.be/SZ0ox0ccu_o" target="_blank" rel="noopener">▶ Watch "Redstone Basics" on YouTube</a>
+          <div class="video-caption">
+            <span class="video-number">03</span>
+              <div><h3>Redstone basics</h3><p>Build your first redstone build using basic redstone items.</p>
+              <p>This is just a small part of what you can do with redstone! There are more things for you to create and discover.</p></div>
+          </div>
+        </article>
+      </div>
+      <div class="carousel-dots" aria-label="Choose a video"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-inner">
+        <h2>Stuck on something?</h2>
+        <p>Send Steve a message — new guides get written from the questions people actually ask.</p>
+
+        <form id="askForm" novalidate>
+          <div class="field">
+            <label for="username">Gamertag / Name</label>
+            <input type="text" id="username" name="username" required autocomplete="name">
+          </div>
+
+          <div class="field">
+            <label for="email">Email <span class="optional">(optional, if you want a reply)</span></label>
+            <input type="email" id="email" name="email" autocomplete="email">
+          </div>
+
+          <div class="field">
+            <label for="question">Your question</label>
+            <textarea id="question" name="question" rows="4" required></textarea>
+          </div>
+
+          <button type="submit">Send message to Steve</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Steve's Guide to Minecraft — Group 4, Gamblingaddicts10. Not affiliated with Mojang/Microsoft.</p>
+  </footer>
+
+</body>
+</html>
